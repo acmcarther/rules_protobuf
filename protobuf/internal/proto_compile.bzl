@@ -414,6 +414,7 @@ cd $(bazel info execution_root)%s && \
     command = " && ".join(cmds),
     inputs = inputs,
     outputs = outputs,
+    use_default_shel_env = true,
   )
 
 
